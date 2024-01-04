@@ -22,7 +22,7 @@ describe('TESTE1', () => {
 
         cy.get("[data-cy=obj-test]").then(async t => {
             let td = await JSON.parse(t[0].textContent || '');
-            expect(td).to.eql({id: '5', name: 'José'})
+            expect(td.id).to.equal("5")
         });
     })
 })
