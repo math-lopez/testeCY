@@ -12,5 +12,5 @@ import { TesteComponent } from './teste/teste.component';
 })
 export class AppComponent {
   title = 'testeCY';
-  teste = {'id': 1, 'name': 'Matheus'}
+  teste = {}
 }
